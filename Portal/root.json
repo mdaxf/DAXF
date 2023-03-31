@@ -1,0 +1,26 @@
+{
+	"name": "root page",
+	"panels": [{
+			"name": "header",
+			"orientation": 1,
+			"view": {
+				"name": "generic header",
+				"type": "view-type",
+				"content": "<div> header content </div>",
+				"inlinestyle": " background-color: blue; height: 20%;"
+			},
+			"inlinestyle": " background-color: blue; height: 20%;"
+		},
+		{
+			"name": "content",
+			"orientation": 1,
+			"view": {
+				"name": "generic header",
+				"type": "view-type",
+				"content": "<div> this is the content </div>",
+				"inlinestyle": " background-color: red; height: 80%;"
+			},
+			"inlinestyle": " background-color: blue; height: 20%;"
+		}
+	]
+}
